@@ -33,7 +33,7 @@ public class Utils {
     public static String getGlobalProperties(String key) throws IOException {
 
         Properties properties = new Properties();
-        FileInputStream fileInputStream = new FileInputStream("/Users/carloscavalcante/IdeaProjects/Fixing2/src/test/java/resources/global.properties");
+        FileInputStream fileInputStream = new FileInputStream("/Users/carloscavalcante/IdeaProjects/RestAPI-CucumberAutomation/src/test/java/resources/global.properties");
 
         properties.load(fileInputStream);
 
